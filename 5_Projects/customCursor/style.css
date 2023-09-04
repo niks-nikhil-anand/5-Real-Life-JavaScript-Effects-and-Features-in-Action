@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Josefin+Sans:wght@300;500&family=Pacifico&family=Poppins:ital,wght@1,600&family=REM:wght@300;500&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    color: white;
+    font-size: 20vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cursor {
+    height: 20px;
+    mix-blend-mode: difference;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+
+}
